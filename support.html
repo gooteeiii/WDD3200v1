@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>Brukner Nature Center</title>
+    
+  </head>
+
+  <body>
+    <header>
+      <!-- Header with logo and bootstrap 4 navbar, navigation collapses for smaller screens -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="images/header.png" class="img-fluid" alt="Brukner Nature Center Logo"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item text-right">
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="visit.html">Visit Us</a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="wtd.html">What to do if...</a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="support.html">Support Us</a>
+          </li>    
+        </ul>
+      </div>
+    </nav>
+    </header>
+    <img src="images/clayton,-bob---possum.png" class="rounded mx-auto d-block" alt="Bob Clayton">
+
+    <div class="jumbotron">
+      <h1 class="display-3"><strong>Make a Supporting Contribution</strong></h1>
+      
+      <p>Brukner Nature Center is a privately funded non-profit organization promoting the appreciation and understanding of wildlife conservation through preservation, education, and rehabilitation. We receive no tax dollars but our Interpretive Building and trails are open to the public. We rely on contributions and grants to fulfill our mission. Please consider making a contribution  to support us today!
+      </p>
+      <a class="btn btn-primary btn-lg text-center" href="https://www.paypal.com/donate?token=E5gFqIUwzLkyJHonz-gHb2PoByPudt7GMo_0pHl34w5qNAVm9HYIeFUYr_mga3QISqJ11XnpiMGTAf0O" role="button">Make a Donation Via PayPal</a>
+      <hr class="my-4">
+      <h3>Leave a Legacy</h3>
+      <p>In order to continue our mission, we need financial long-term financial assistance from people like you.  By leaving a legacy through a gift in your will, 
+        you can continue to help us reach our goals far into the future. Your gift is a lasting tribute.
+      </p>
+      <a class="btn btn-primary btn-lg text-center" href="docs/membership_application.pdf" role="button">Become a BNC Member</a>
+      <br>
+      <br>
+      <hr class="my-4">
+      <h3>Make a Memorial Contribution</h3>
+      <p>
+        To honor a loved one with a contribution in their name, simply download our BNC Memorial  Form, and return it with a check payable to Brukner Nature Center.
+      </p>
+      <a class="btn btn-primary btn-lg text-center" href="docs/memorial-fund.pdf" role="button">Donate to the Memorial Fund</a>
+    </div>
+  
+    <!-- footer with logo and links to contact info and social media -->
+    <footer>
+      <ul class="nav justify-content-center">
+        <li class="nav-item1">
+          <canvas id="imageView" width="100" height="100"></canvas>
+          <script>
+          var canvas, context, canvaso, contexto;
+          canvaso = document.getElementById('imageView');
+          context = canvaso.getContext('2d');
+          context.lineWidth = 5;
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(51.5, 26);
+          context.scale(0.875, 1);
+          context.beginPath();
+          context.arc(0, 0, 11, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(59.5, 38);
+          context.scale(1, 0.4444444444444444);
+          context.beginPath();
+          context.arc(0, 0, 10, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(45.5, 41);
+          context.scale(1, 0.8);
+          context.beginPath();
+          context.arc(0, 0, 6, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(38.5, 31.5);
+          context.scale(0.6, 1);
+          context.beginPath();
+          context.arc(0, 0, 6, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(39.5, 19.5);
+          context.scale(1, 1);
+          context.beginPath();
+          context.arc(0, 0, 7, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(45.5, 11);
+          context.scale(1, 0.5714285714285714);
+          context.beginPath();
+          context.arc(0, 0, 8, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(60, 13.5);
+          context.scale(0.8571428571428571, 1);
+          context.beginPath();
+          context.arc(0, 0, 9, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#fcf403';
+          context.save();
+          context.translate(67, 29);
+          context.scale(1, 0.75);
+          context.beginPath();
+          context.arc(0, 0, 10, 0, 6.283185307179586, false);
+          context.stroke();
+          context.closePath();
+          context.restore();
+
+          context.strokeStyle = '#0bff03';
+          context.beginPath();
+          context.moveTo(51, 38);
+          context.lineTo(50, 83);
+          context.stroke();
+          context.closePath();
+          </script>
+        </li> 
+        <li class="nav-item2">
+          <p><a href="https://www.google.com/maps/place/5995+Horseshoe+Bend+Rd,+Troy,+OH+45373/@40.0163941,-84.3199876,17z/data=!3m1!4b1!4m5!3m4!1s0x883f9cd0a9fc5757:0x53a894a1330445e!8m2!3d40.01639!4d-84.3177989?hl=en">5995 Horseshoe Bend Rd</a></p>
+          <p><a href="https://www.google.com/maps/place/5995+Horseshoe+Bend+Rd,+Troy,+OH+45373/@40.0163941,-84.3199876,17z/data=!3m1!4b1!4m5!3m4!1s0x883f9cd0a9fc5757:0x53a894a1330445e!8m2!3d40.01639!4d-84.3177989?hl=en">Troy, OH 45373</a></p>
+          <p><a href="tel:+1937-698-6493">937-698-6493</a></p>
+          <p><a href="mailto:info@bruknernaturecenter.com">info@bruknernaturecenter.com</a></p>
+        </li>
+        <li class="nav-item3">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/BruknerNatureCenter/" class="fa fa-facebook" title="facebook icon"></a>
+        </li>
+        <li class="nav-item3">
+          <!-- Youtube -->
+          <a href="https://www.youtube.com/watch?v=PB3kLwRZ0P8" class="fa fa-youtube" title="youtube icon"></a>
+        </li>
+        <li class="nav-item3">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/bruknernaturecenter/" class="fa fa-instagram" title="instagram icon"></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
